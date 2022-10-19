@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+import {Link} from 'react-router-dom';
 import Box from '@mui/material/Box';
 
 function MainFeaturedPost(props) {
@@ -49,7 +49,7 @@ function MainFeaturedPost(props) {
             <Typography variant="h6" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link variant="subtitle1" href="#">
+            <Link to={`about`} style={{display: 'block', marginTop: 10, color: 'rgb(249, 211, 66)', textDecoration: 'none'}}>
               {post.linkText}
             </Link>
           </Box>

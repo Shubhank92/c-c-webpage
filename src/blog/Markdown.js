@@ -8,13 +8,14 @@ function MarkdownListItem(props) {
   return <Box component="li" sx={{ mt: 1, typography: 'body1' }} {...props} />;
 }
 
+
 const options = {
   overrides: {
     h1: {
       component: Typography,
       props: {
         gutterBottom: true,
-        variant: 'h4',
+        variant: 'h2',
         fontWeight: "bold",
         component: 'h1',
       },
@@ -42,7 +43,7 @@ const options = {
     a: { component: Link },
     li: {
       component: MarkdownListItem,
-    },
+    }
   },
 };
 
