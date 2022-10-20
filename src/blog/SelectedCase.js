@@ -62,7 +62,7 @@ const SelectedCase = () => {
             <Grid item xs={12}>
               <Card sx={{ display: 'flex', p:3 }}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%'}}>
-                  <CardContent sx={{ flex: '1 0 auto' }}>
+                  <CardContent sx={{ flex: '1 0 auto', justifyContent: 'center' }}>
                     {/* <Typography component="div" variant="h2" fontWeight='bold'>
                       {name.toUpperCase()}
                     </Typography> */}

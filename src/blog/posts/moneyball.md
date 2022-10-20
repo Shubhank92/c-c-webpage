@@ -2,7 +2,7 @@
 
 _Walkthrough, Company [Kearney](/)_
 
-![Moneyball](moneyball.png)
+<img src="#" width="100%"/>
 
 **Interviewer: You are thinking of starting a sports coaching center in Mumbai. You have to find a way to set the price of individual subscriptions for memberships at your coaching center. How will you do this?**
 
