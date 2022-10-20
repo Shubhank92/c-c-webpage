@@ -11,7 +11,7 @@ import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 
-//content
+// Content
 import { CaseExamplesContent, featuredPosts, mainFeaturedPost, sidebar, sections } from './content/HomePageContent';
 
 const theme = createTheme({
@@ -45,7 +45,7 @@ export default function Blog() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header title="Case & Consultancy Club" subtitle="Entrepreneurship Cell, St.Xavier's College" sections={sections} />
+        <Header title="Case & Consultancy Club" subtitle="Entrepreneurship Cell, St.Xavier's College, Mumbai" sections={sections} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>

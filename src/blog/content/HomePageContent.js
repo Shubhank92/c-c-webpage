@@ -1,6 +1,6 @@
-import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import LanguageIcon from '@mui/icons-material/Language';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 const CaseExamplesContent = [
@@ -80,9 +80,9 @@ const sidebar = {
     { title: 'No. of coins in a mall'}
   ],
   social: [
-    { name: 'GitHub', icon: GitHubIcon },
-    { name: 'Twitter', icon: TwitterIcon },
-    { name: 'Facebook', icon: FacebookIcon },
+    { name: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/ecell.xaviers/' },
+    { name: 'LinkedIn', icon: LinkedInIcon, url: 'https://www.linkedin.com/company/case-and-consultancy/' },
+    { name: 'Website', icon: LanguageIcon, url: 'https://linktr.ee/ecell.xaviers'},
   ],
 };
 

@@ -11,10 +11,10 @@ import {Link} from 'react-router-dom'
 
 function Main(props) {
   const { posts, title } = props;
-  console.log(posts)
+
   return (
     <Grid item xs={12} md={8} >
-      <Typography item variant="h3" fontWeight="bold" fontStyle="italic" gutterBottom>
+      <Typography variant="h3" fontWeight="bold" fontStyle="italic" gutterBottom>
         {title}
       </Typography>
       <Divider />
@@ -47,7 +47,7 @@ function Main(props) {
 }
 
 Main.propTypes = {
-  posts: PropTypes.arrayOf(PropTypes.string).isRequired,
+  posts: PropTypes.arrayOf(PropTypes.object).isRequired,
   title: PropTypes.string.isRequired,
 };
 

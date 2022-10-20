@@ -13,8 +13,8 @@ function App() {
         <Route path="/cases" element={<PostsPage />} />
         <Route path='/cases/:caseName' element={<SelectedCase />} />
         <Route path="about" element={<About />} />
-        <Route path="theory-dicussions" element={<TheoryDiscussions />} />
-        <Route path="case-sturctures" element={<CaseSturctures />} />
+        <Route path="theory-discussions" element={<TheoryDiscussions />} />
+        <Route path="case-structures" element={<CaseSturctures />} />
     </Routes>
   );
 }

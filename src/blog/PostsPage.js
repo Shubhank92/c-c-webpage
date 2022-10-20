@@ -31,7 +31,9 @@ const PostsPage = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <h1>CASES</h1>
+        <Typography variant="h1" align="center" sx={{p:2, fontWeight: '500'}}>
+            Cases
+        </Typography>
         <main>
           <Grid container spacing={4}>
             {/* CARDS */}
@@ -47,10 +49,8 @@ const PostsPage = () => {
                       <Typography variant="subtitle1" color="text.secondary" component="div">
                         {item.description}
                       </Typography>
-                      <Link to={`${item.title.split(" ").join("-").toLowerCase()}`}>
-                      {/* <Typography variant="subtitle1" color="#f9d342" mt={2} component="div"> */}
+                      <Link to={`${item.title.split(" ").join("-").toLowerCase()}`} style={{color: "#f9d342"}}>
                         See Solution
-                      {/* </Typography> */}
                       </Link>
                     </CardContent>
                   </Box>

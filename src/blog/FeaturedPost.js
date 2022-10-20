@@ -6,14 +6,14 @@ import Card from '@mui/material/Card';
 import CardActionArea from '@mui/material/CardActionArea';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import {Link} from 'react-router-dom'
+// import {Link} from 'react-router-dom'
 
 function FeaturedPost(props) {
   const { post } = props;
-
+  console.log(post)
   return (
     <Grid item xs={12} md={6}>
-      <CardActionArea component="a" href="#">
+      <CardActionArea component="a" href={`${post.title.split(" ").join("-").toLowerCase()}`}>
         <Card sx={{ display: 'flex' }}>
           <CardContent sx={{ flex: 1, m: 1 }}>
             <Typography component="h2" variant="h4" fontWeight="bold" >
@@ -25,9 +25,10 @@ function FeaturedPost(props) {
             <Typography variant="subtitle1" paragraph>
               {post.description}
             </Typography>
-            <Link  to={`${post.title.split(" ").join("-").toLowerCase()}`} style={{display: 'block', marginTop: 10, color: 'rgb(249, 211, 66)', textDecoration: 'none'}}>
+            {/* style={{display: 'block', marginTop: 10, color: 'rgb(249, 211, 66)', textDecoration: 'none'}} */}
+            <Typography variant="subtitle1" color="rgb(249, 211, 66)">
               Continue reading...
-            </Link>
+            </Typography>
           </CardContent>
           <CardMedia
             component="img"
