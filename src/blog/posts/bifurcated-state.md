@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Kearney](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/bifurcated-state.png?raw=true" width="100%"/>
+
 **A state in India has been bifurcated. Calculate the space and cost space of the office of the secretariat.**
 
 Okay, got it. Please give me a minute to gather my thoughts.

@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Kearney](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/boiler-case.png?raw=true" width="100%"/>
+
 **Interviewer: You are a consultant hired by a company that is a boiler manufacturer. They have been recently facing problems, their profits are declining. Identify the reason for this situation and come up with solutions to rectify this problem.**
 
 Candidate: Alright, got it. Please give me a minute to jot down my thoughts.

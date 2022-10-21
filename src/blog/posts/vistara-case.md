@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Bain Capability Network](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/vistara.png?raw=true" width="100%"/>
+
 **Interviewer (Case Statement): Estimate the number of breakfasts that Vistara needs to prepare for its flights from Delhi in a day.**
 
 Candidate: I would like to ask some clarifying questions.

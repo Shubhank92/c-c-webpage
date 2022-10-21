@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Kearney](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/number-of-coins.png?raw=true" width="100%"/>
+
 **Interviewer: Guess and estimate the number of coins in a mall and remember we need to be time conscious.**
 
 Candidate: Okay, so I'll take a mall that has 2 floors and a basement, will that work?

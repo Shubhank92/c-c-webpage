@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Kearney](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/saving-zomato.png?raw=true" width="100%"/>
+
 **Interviewer:- You’re a consultant hired by the CEO of Zomato. They’ve approached you to reduce their delivery costs. How would you go about doing this?**
 
 Alright, so from what I’ve seen so far, Zomato delivery partners mostly use bikes for deliveries, at least within my locality.

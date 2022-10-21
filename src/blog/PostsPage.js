@@ -63,9 +63,6 @@ const PostsPage = () => {
                 </Card>
               </Grid>              
             ))}
-
-
-          
           </Grid>
         </main>
       </Container>

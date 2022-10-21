@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Bain Capability Network](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/swimming-pools.png?raw=true" width="100%"/>
+
 **Interviewer (Case Statement): Estimate the number of swimming pools in Mumbai.**
 
 Candidate: I have some clarifying questions.

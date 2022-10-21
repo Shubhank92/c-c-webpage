@@ -2,6 +2,8 @@
 
 _Walkthrough, Company [Bain Capability Network](/)_
 
+<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/starbucks.png?raw=true" width="100%"/>
+
 **Interviewer (Case Statement): Estimate the daily revenue of a Starbucks in Cyber Hub.**
 
 Candidate: I have a few clarifying questions. What are the operational days and timings for the outlet?
