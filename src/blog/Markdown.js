@@ -8,7 +8,6 @@ function MarkdownListItem(props) {
   return <Box component="li" sx={{ mt: 1, typography: 'body1' }} {...props} />;
 }
 
-
 const options = {
   overrides: {
     h1: {
@@ -48,6 +47,5 @@ const options = {
 };
 
 export default function Markdown(props) {
-
   return <ReactMarkdown options={options} {...props} />;
 }

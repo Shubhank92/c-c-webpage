@@ -32,7 +32,7 @@ const CaseExamplesContent = [
 
 
 const mainFeaturedPost = {
-  title: 'The Pyramid Principle',
+  title: 'Case & Consultancy Club',
   description:
     "The Case and Consultancy Club of St. Xavier’s College (Autonomous) Mumbai, is immensely proud to present its first ever casebook!", 
   image: 'https://source.unsplash.com/random',
@@ -88,6 +88,7 @@ const sidebar = {
 
 
 const sections = [
+  { title: 'Home' },
   { title: 'About'},
   { title: 'Case Structures' },
   { title: 'Theory Discussions' },

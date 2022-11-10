@@ -10,7 +10,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import Footer from './Footer';
 import {Link} from 'react-router-dom'
 
 // DATA
@@ -35,11 +34,11 @@ const PostsPage = () => {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Typography variant="h1" align="center" sx={{p:2, fontWeight: '500'}}>
+        <Typography variant="h3" align="center" sx={{p:2, fontWeight: '500', borderBottom: 1, borderColor: 'divider'}}>
             Cases
         </Typography>
         <main>
-          <Grid container spacing={4}>
+          <Grid container spacing={4} sx={{mt: 1}}>
             {/* CARDS */}
 
             {CasesSummary.map((item) => {
@@ -93,10 +92,6 @@ const PostsPage = () => {
           </Grid>
         </main>
       </Container>
-      <Footer
-        title="Footer"
-        description="Something here to give the footer a purpose!"
-      />
     </ThemeProvider>
   )
 }

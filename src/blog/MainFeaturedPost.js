@@ -49,7 +49,7 @@ function MainFeaturedPost(props) {
             <Typography variant="h6" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link to={`about`} style={{display: 'block', marginTop: 10, color: 'rgb(249, 211, 66)', textDecoration: 'none'}}>
+            <Link to={`/about`} style={{display: 'block', marginTop: 10, color: 'rgb(249, 211, 66)', textDecoration: 'none'}}>
               {post.linkText}
             </Link>
           </Box>

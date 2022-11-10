@@ -16,7 +16,7 @@ function Header(props) {
   return (
     <React.Fragment>
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Grid container direction='column' justifyContent="center" alignItems="center" sx={{p:2}}>
+        <Grid container direction='column' justifyContent="center" alignItems="center" sx={{p:1}}>
           <Grid item>
             <Typography component="h2" variant="h4" color="inherit" align="center" fontStyle="italic" noWrap sx={{ flex: 1 }}>
               {title}
@@ -32,7 +32,7 @@ function Header(props) {
       <Toolbar
         component="nav"
         variant="dense"
-        sx={{ justifyContent: 'space-evenly', overflowX: 'auto' }}
+        sx={{ justifyContent: 'space-evenly', overflowX: 'auto', borderBottom: 1, borderColor: 'divider' }}
       >
         {sections.map((section) => (
           <Link 
