@@ -1,13 +1,8 @@
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import Toolbar from '@mui/material/Toolbar';
-// import IconButton from '@mui/material/IconButton';
-// import SearchIcon from '@mui/icons-material/Search';
-// import Grid from '@mui/material/Grid';
-
 import Typography from '@mui/material/Typography';
 import {Link} from 'react-router-dom';
-// import PostsPage from './PostsPage';
 import { Grid } from '@mui/material';
 
 
@@ -36,9 +31,8 @@ function Header(props) {
       >
         {sections.map((section) => (
           <Link 
-            // component={PostsPage}
             key={section.title}
-            to={`${section.title.split(" ").join("-").toLowerCase()}`}
+            to={section.title === 'Home' ? '/' : `${section.title.split(" ").join("-").toLowerCase()}`}
             style={{ padding: 1, flexShrink: 0, color: 'white' }}
           >
             {section.title}
