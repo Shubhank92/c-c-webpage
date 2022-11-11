@@ -1,5 +1,4 @@
 import * as React from 'react';
-// import { useState, useEffect } from 'react';
 import Grid from '@mui/material/Grid';
 import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';

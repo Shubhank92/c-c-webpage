@@ -6,7 +6,6 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 import SidebarArchives from './components/SidebarArchives';
-// import { Link as RoutingLink} from 'react-router-dom'
 
 function Sidebar(props) {
   const { archives, description, social, title } = props;
@@ -23,7 +22,6 @@ function Sidebar(props) {
         Case Archives
       </Typography>
       <SidebarArchives archives={archives} />
-
 
       <Typography variant="h5" fontWeight="bold" fontStyle="italic" gutterBottom sx={{ mt: 3 }}>
         Socials

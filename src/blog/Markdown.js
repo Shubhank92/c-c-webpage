@@ -21,7 +21,7 @@ const options = {
     },
     h2: {
       component: Typography,
-      props: { gutterBottom: true, variant: 'caption', component: 'h2' },
+      props: { gutterBottom: true, variant: 'h3', component: 'h2' },
     },
     h3: {
       component: Typography,

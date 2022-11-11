@@ -32,7 +32,7 @@ const TheoryDiscussions = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{mb: 6}}>
         <Typography variant="h3" align='center' sx={{p:2, fontWeight: '500', borderBottom: 1, borderColor: 'divider'}}>
             Theory Discussions
         </Typography>

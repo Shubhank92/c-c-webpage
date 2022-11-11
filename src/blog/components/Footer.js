@@ -1,49 +1,45 @@
 import * as React from 'react';
-import PropTypes from 'prop-types';
 import Box from '@mui/material/Box';
-import Container from '@mui/material/Container';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
+import Stack from '@mui/material/Stack';
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+//ICONS
+import EmailIcon from '@mui/icons-material/Email';
+import PlaceIcon from '@mui/icons-material/Place';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
-function Footer(props) {
-  const { description, title } = props;
+const social= [
+    { name: 'caseclubecellsxc@gmail.com', icon: EmailIcon},
+    { name: "St. Xavier's College, Mumbai, Maharastra 400001, IN", icon: PlaceIcon},
+    { name: '+91 9999955555', icon: WhatsAppIcon},
+] 
+
+function Footer() {
 
   return (
-    <Box component="footer" sx={{ bgcolor: 'background.paper', py: 6 }}>
-      <Container maxWidth="lg">
-        <Typography variant="h6" align="center" gutterBottom>
-          {title}
-        </Typography>
-        <Typography
-          variant="subtitle1"
-          align="center"
-          color="text.secondary"
-          component="p"
-        >
-          {description}
-        </Typography>
-        <Copyright />
-      </Container>
+    <Box component="footer">
+      <Paper elevation={1} sx={{ p:5, bgcolor: 'primary' }}>
+          <Grid container sx={{width: '80%', mx: 'auto', height: 'auto' }} spacing={2} columns={16}>
+            <Grid item xs={6} sx={{borderRight: 2, borderColor: 'divider', p:1}}>
+                  <img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/candc.png?raw=true" alt="C&C Club" style={{width: '150px', height:'150px', borderRadius: '50%'}}/>
+                  <Typography gutterBottom variant="h4" component="div" sx={{whiteSpace: 'normal'}}>
+                    Case & Consultancy Club 
+                  </Typography>
+            </Grid>
+            <Grid item xs={10}>
+              {social.map((network) => (
+                  <Stack direction="row" sx={{mb: 1, textDecoration: 'none', fontSize: 25}} spacing={1} alignItems="center">
+                    <network.icon fontSize={'large'} />
+                    <span>{network.name}</span>
+                  </Stack>
+              ))}
+            </Grid>
+          </Grid>
+      </Paper>
     </Box>
   );
 }
-
-Footer.propTypes = {
-  description: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-};
 
 export default Footer;

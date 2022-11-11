@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
-// import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Markdown from '../Markdown';
 
@@ -32,7 +31,7 @@ const About = () => {
   }, [name]);
 
   return (
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{mb: 6}}>
         <Typography variant="h3" align="center" sx={{p:2, fontWeight: '500', borderBottom: 1, borderColor: 'divider'}}>
             Introduction
         </Typography>
@@ -43,9 +42,6 @@ const About = () => {
               <Card sx={{ display: 'flex', p:3 }}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', width: '100%'}}>
                   <CardContent sx={{ flex: '1 0 auto', justifyContent: 'center' }}>
-                    {/* <Typography component="div" variant="h2" fontWeight='bold'>
-                      {name.toUpperCase()}
-                    </Typography> */}
                     <Typography variant="h5" component="div">
                         {posts.map((post) => (
                         <Markdown className="markdown" key={post.substring(0, 40)}>
@@ -60,7 +56,6 @@ const About = () => {
           </Grid>
         </main>
       </Container>
-
   )
 }
 

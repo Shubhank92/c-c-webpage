@@ -1,8 +1,6 @@
 import * as React from 'react';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 // COMPONENTS
-import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -15,25 +13,10 @@ import {Link} from 'react-router-dom'
 // DATA
 import { CasesSummary } from './content/CasesSummaryData';
 
-const theme = createTheme({
-    typography: {
-      fontFamily: [
-        "Playfair Display", "Georgia", "Times New Roman", "serif/*rtl:Amiri, Georgia, Times New Roman, serif*/"
-      ].join(','),
-    },
-    palette: {
-      mode: 'dark',
-      // primary: '#f9d342'
-    }
-} 
-);
-
 const PostsPage = () => {
 
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" sx={{mb: 6}}>
         <Typography variant="h3" align="center" sx={{p:2, fontWeight: '500', borderBottom: 1, borderColor: 'divider'}}>
             Cases
         </Typography>
@@ -92,7 +75,6 @@ const PostsPage = () => {
           </Grid>
         </main>
       </Container>
-    </ThemeProvider>
   )
 }
 

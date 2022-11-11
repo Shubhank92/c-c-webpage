@@ -5,7 +5,6 @@ import Typography from '@mui/material/Typography';
 import {Link} from 'react-router-dom';
 import { Grid } from '@mui/material';
 
-
 function Header(props) {
   const { sections, title, subtitle } = props;
   return (
