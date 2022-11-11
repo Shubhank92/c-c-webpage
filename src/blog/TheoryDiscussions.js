@@ -39,7 +39,6 @@ const TheoryDiscussions = () => {
         <main>
           <Grid container spacing={4} sx={{mt: 1}} >
             {TheoryDiscussionsSummary.map((item) => {
-              console.log(`${item.title.split(" ").join("-").toLowerCase()}`)
               return (
                 <Grid item xs={12} key={item.title}>
                   <Card sx={{ display: 'flex' }}>

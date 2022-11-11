@@ -5,18 +5,17 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-// import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import Markdown from './Markdown';
 
 
 const importAll = (r) => r.keys().map(r);
-const markdownFiles = importAll(require.context('./posts/cases', false, /\.md$/)).sort();
+const markdownFiles = importAll(require.context('./posts/casestructures', false, /\.md$/)).sort();
 
-const SelectedCase = () => {
+const SelectedCaseStructure = () => {
   const[posts, setPosts] = useState([]);
-  const { caseName } = useParams();
-  let name = caseName;
+  const { articleName } = useParams();
+  let name = articleName;
   if(name.includes('-')) {
     name = name.split("-").join(" ");
   }
@@ -24,14 +23,14 @@ const SelectedCase = () => {
   useEffect(() => {
     async function solveMd() {
       const newPosts = await Promise.all(markdownFiles.map((file) => fetch(file).then((res) => res.text()))).catch((err) => console.error(err));
-      const selectedCase = newPosts.filter((item) => {
+      const selectedArticle = newPosts.filter((item) => {
         if(item.toLowerCase().includes(name)) {
           return item
         }
         return null
       })
       
-      setPosts([...selectedCase])
+      setPosts([...selectedArticle])
     }
     solveMd();
   }, [name])
@@ -70,4 +69,4 @@ const SelectedCase = () => {
   )
 }
 
-export default SelectedCase
+export default SelectedCaseStructure

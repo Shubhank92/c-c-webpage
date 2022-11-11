@@ -7,6 +7,8 @@ import SelectedCase from './blog/SelectedCase';
 import { Routes, Route } from "react-router-dom";
 import IndexPage from './blog/IndexPage';
 import SelectedTheoryDiscussions from './blog/SelectedTheoryDiscussion';
+import SelectedCaseStructure from './blog/SelectedCaseStructure';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
           <Route path="theory-discussions" element={<TheoryDiscussions />} />
           <Route path="theory-discussions/:articleName" element={<SelectedTheoryDiscussions />} />
           <Route path="case-structures" element={<CaseSturctures />} />
+          <Route path="case-structures/:articleName" element={<SelectedCaseStructure />} />
         </Route>
     </Routes>
   );

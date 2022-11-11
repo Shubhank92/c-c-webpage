@@ -34,6 +34,7 @@ function Sidebar(props) {
           variant="body1"
           href={network.url}
           key={network.name}
+          target="blank"
           sx={{ mb: 0.5, color: 'rgb(249, 211, 66)', textDecoration: 'none' }}
         >
           <Stack direction="row" spacing={1} alignItems="center">
