@@ -7,7 +7,7 @@ const TheoryDiscussionsSummary = [
   {
     title: '3C-1P Approach',
     description:
-      "The 3C–1P model defines the first planning step that companies need to take in order to understand their current situation and drive their product. The 3C1P model was proposed by _Kenichi Ohmae_, a renowned Japanese strategy guru"
+      "The 3C–1P model defines the first planning step that companies need to take in order to understand their current situation and drive their product. The 3C1P model was proposed by Kenichi Ohmae, a renowned Japanese strategy guru"
   },
   {
     title: '80-20 Rule',

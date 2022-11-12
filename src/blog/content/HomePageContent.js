@@ -25,8 +25,7 @@ const CaseExamplesContent = [
     },
     {
         title: 'Vistara Case',
-        description:
-        `Estimate the number of breakfasts that Vistara needs to prepare for its flights from Delhi in a day.`
+        description: `Estimate the number of breakfasts that Vistara needs to prepare for its flights from Delhi in a day.`
     }
 ];
 
@@ -36,26 +35,24 @@ const mainFeaturedPost = {
   description:
     "The Case and Consultancy Club of St. Xavier’s College (Autonomous) Mumbai, is immensely proud to present its first ever casebook!", 
   image: 'https://source.unsplash.com/random',
-  imageText: 'main image description',
+  imageText: 'Case & Consultancy Club',
   linkText: 'Continue reading…',
 };
 
 const featuredPosts = [
   {
-    title: 'Theory discussions',
+    title: 'Theory Discussions',
     date: 'Nov 12',
-    description:
-      "Indepth Discussions about Porter's 5 principles, C3C-1P Approach, MECE, 80/20",
+    description: "Indepth Discussions about Porter's 5 principles, C3C-1P Approach, MECE, 80/20",
     image: 'https://source.unsplash.com/random',
-    imageLabel: 'Image Text',
+    imageLabel: 'Theory Discussions',
   },
   {
     title: 'Case Structures',
     date: 'Nov 11',
-    description:
-      'Two main case types that are predominantly witnessed in case interviews for students.',
+    description: 'Two main case types that are predominantly witnessed in case interviews for students.',
     image: 'https://source.unsplash.com/random',
-    imageLabel: 'Image Text',
+    imageLabel: 'Case Structures',
   },
 ];
 

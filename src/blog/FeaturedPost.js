@@ -9,9 +9,10 @@ import CardMedia from '@mui/material/CardMedia';
 
 function FeaturedPost(props) {
   const { post } = props;
+  console.log(post.title.split(" ").join("-").toLowerCase())
   return (
     <Grid item xs={12} md={6}>
-      <CardActionArea component="a" href={`${post.title.split(" ").join("-").toLowerCase()}`}>
+      <CardActionArea component="a" href={`/${post.title.split(" ").join("-").toLowerCase()}`}>
         <Card sx={{ display: 'flex' }}>
           <CardContent sx={{ flex: 1, m: 1 }}>
             <Typography component="h2" variant="h4" fontWeight="bold" >
