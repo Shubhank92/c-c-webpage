@@ -1,6 +1,7 @@
 import Home from './blog/Home';
 import PostsPage from './blog/PostsPage';
 import About from './blog/pages/About';
+import Error from './blog/pages/Error';
 import CaseSturctures from './blog/CaseSturctures';
 import TheoryDiscussions from './blog/TheoryDiscussions';
 import SelectedCase from './blog/SelectedCase';
@@ -22,6 +23,7 @@ function App() {
           <Route path="theory-discussions/:articleName" element={<SelectedTheoryDiscussions />} />
           <Route path="case-structures" element={<CaseSturctures />} />
           <Route path="case-structures/:articleName" element={<SelectedCaseStructure />} />
+          <Route path="*" element={<Error />} />
         </Route>
     </Routes>
   );
