@@ -34,7 +34,7 @@ const mainFeaturedPost = {
   title: 'Case & Consultancy Club',
   description:
     "The Case and Consultancy Club of St. Xavier’s College (Autonomous) Mumbai, is immensely proud to present its first ever casebook!", 
-  image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/main-feat.png?raw=true',
+  image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/main-feat.jpg?raw=true',
   imageText: 'Case & Consultancy Club',
   linkText: 'Continue reading…',
 };
@@ -44,7 +44,7 @@ const featuredPosts = [
     title: 'Theory Discussions',
     date: 'Nov 12',
     description: "Indepth Discussions about Porter's 5 principles, C3C-1P Approach, MECE, 80/20",
-    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/theory-dicussions.png?raw=true',
+    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/theory-dicussions.jpg?raw=true',
     imageLabel: 'Theory Discussions',
   },
   {
