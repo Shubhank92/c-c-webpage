@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Card from '@mui/material/Card';
-import CardActionArea from '@mui/material/CardActionArea';
+import {Link} from 'react-router-dom';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 
@@ -12,7 +12,6 @@ function FeaturedPost(props) {
   console.log(post.title.split(" ").join("-").toLowerCase())
   return (
     <Grid item xs={12} md={6}>
-      <CardActionArea component="a" href={`/${post.title.split(" ").join("-").toLowerCase()}`}>
         <Card sx={{ display: 'flex' }}>
           <CardContent sx={{ flex: 1, m: 1 }}>
             <Typography component="h2" variant="h4" fontWeight="bold" >
@@ -24,9 +23,9 @@ function FeaturedPost(props) {
             <Typography variant="subtitle1" paragraph>
               {post.description}
             </Typography>
-            <Typography variant="subtitle1" color="rgb(249, 211, 66)">
+            <Link to={`/${post.title.split(" ").join("-").toLowerCase()}`} style={{display: 'block', marginTop: 10, color: 'rgb(249, 211, 66)', textDecoration: 'none'}}>
               Continue reading...
-            </Typography>
+            </Link>
           </CardContent>
           <CardMedia
             component="img"
@@ -35,7 +34,6 @@ function FeaturedPost(props) {
             alt={post.imageLabel}
           />
         </Card>
-      </CardActionArea>
     </Grid>
   );
 }

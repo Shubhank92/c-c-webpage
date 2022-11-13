@@ -34,7 +34,7 @@ const mainFeaturedPost = {
   title: 'Case & Consultancy Club',
   description:
     "The Case and Consultancy Club of St. Xavier’s College (Autonomous) Mumbai, is immensely proud to present its first ever casebook!", 
-  image: 'https://source.unsplash.com/random',
+  image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/main-feat.png?raw=true',
   imageText: 'Case & Consultancy Club',
   linkText: 'Continue reading…',
 };
@@ -44,14 +44,14 @@ const featuredPosts = [
     title: 'Theory Discussions',
     date: 'Nov 12',
     description: "Indepth Discussions about Porter's 5 principles, C3C-1P Approach, MECE, 80/20",
-    image: 'https://source.unsplash.com/random',
+    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/theory-dicussions.png?raw=true',
     imageLabel: 'Theory Discussions',
   },
   {
     title: 'Case Structures',
     date: 'Nov 11',
     description: 'Two main case types that are predominantly witnessed in case interviews for students.',
-    image: 'https://source.unsplash.com/random',
+    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/case-structure.png?raw=true',
     imageLabel: 'Case Structures',
   },
 ];
