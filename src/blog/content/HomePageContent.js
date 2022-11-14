@@ -34,7 +34,7 @@ const mainFeaturedPost = {
   title: 'Case & Consultancy Club',
   description:
     "The Case and Consultancy Club of St. Xavier’s College (Autonomous) Mumbai, is immensely proud to present its first ever casebook!", 
-  image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/main-feat.jpg?raw=true',
+  image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/main-image.jpg?raw=true',
   imageText: 'Case & Consultancy Club',
   linkText: 'Continue reading…',
 };
@@ -51,7 +51,7 @@ const featuredPosts = [
     title: 'Case Structures',
     date: 'Nov 11',
     description: 'Two main case types that are predominantly witnessed in case interviews for students.',
-    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/case-structure.png?raw=true',
+    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/case-structures.jpg?raw=true',
     imageLabel: 'Case Structures',
   },
 ];
