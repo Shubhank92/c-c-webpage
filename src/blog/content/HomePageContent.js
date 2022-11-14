@@ -44,7 +44,7 @@ const featuredPosts = [
     title: 'Theory Discussions',
     date: 'Nov 12',
     description: "Indepth Discussions about Porter's 5 principles, C3C-1P Approach, MECE, 80/20",
-    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/theory-dicussions.jpg?raw=true',
+    image: 'https://github.com/Shubhank92/c-c-webpage/blob/4ff22d4bbffa7be8e3281352f1fc8e584ef8e469/src/assets/theory-discussions.jpg?raw=true',
     imageLabel: 'Theory Discussions',
   },
   {
