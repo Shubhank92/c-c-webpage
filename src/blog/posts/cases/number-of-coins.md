@@ -1,8 +1,8 @@
 # Number Of Coins
 
-_Walkthrough, Company [Kearney](/)_
+<!-- _Walkthrough, Company [Kearney](/)_ -->
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/number-of-coins.png?raw=true" width="100%"/>
+Walkthrough
 
 **Interviewer: Guess and estimate the number of coins in a mall and remember we need to be time conscious.**
 

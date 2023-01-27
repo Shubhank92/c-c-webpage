@@ -1,8 +1,8 @@
 # Pet Food Case
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/pet-food-case.png?raw=true" width="100%"/>
+<!-- _Walkthrough, Company [Bain Capability Network](/)_ -->
 
 **Interviewer (Case Statement):- A private equity fund wants to invest in a pet food company which has been operating in India since the last three or four years. They require funds to be able to expand further into the market. Analyze and estimate the pet food market in India.**
 

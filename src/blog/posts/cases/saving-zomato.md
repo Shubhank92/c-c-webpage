@@ -1,8 +1,8 @@
 # Saving Zomato
 
-_Walkthrough, Company [Kearney](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/saving-zomato.png?raw=true" width="100%"/>
+<!-- _Walkthrough, Company [Kearney](/)_ -->
 
 **Interviewer:- You’re a consultant hired by the CEO of Zomato. They’ve approached you to reduce their delivery costs. How would you go about doing this?**
 

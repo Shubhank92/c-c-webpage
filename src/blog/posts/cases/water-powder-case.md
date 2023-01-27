@@ -1,6 +1,8 @@
 # Water Powder Case
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
+
+<!-- _Walkthrough, Company [Bain Capability Network](/)_ -->
 
 **Interviewer :- ( Case Statement ) A leading global consumer goods company has produced a new product for cleaning water to make it fit for drinking. The product is a sachet, which contains a powder. The powder is poured into a bucket of water and stirred for 20 minutes. At the end of the process, the silt/dirt that was in the water will settle at the bottom of the bucket and the bacteria in the water will have been cleaned/neutralized. On pouring, the recipient gets world health organization certified drinking water. The company has launched this product with varying rates of success in many developing countries and now they want to enter India. The company already sells other products in India. The CEO wants to know if they should enter the Indian market with this new product and if so, how? Structure your analysis of this problem.**
 

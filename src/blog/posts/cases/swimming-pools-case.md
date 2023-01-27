@@ -1,8 +1,8 @@
 # Swimming Pools Case
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/swimming-pools.png?raw=true" width="100%"/>
+<!-- _Walkthrough, Company [Bain Capability Network](/)_ -->
 
 **Interviewer (Case Statement): Estimate the number of swimming pools in Mumbai.**
 

@@ -1,8 +1,8 @@
 # Crumbling Biscuits Revenue
 
-_Walkthrough, Company [Kearney](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/crumbling-biscuits-revenue.png?raw=true" width="100%"/>
+<!-- _ Company [Kearney](/)_ -->
 
 **Case Statement: A manufacturer for a biscuit producing company has approached you. His company’s revenue has been falling steadily for the past 2 months. He wants you to find out why and to remedy the problem.**
 

@@ -1,8 +1,8 @@
 # Moneyball
 
-_Walkthrough, Company [Kearney](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/moneyball.png?raw=true" width="100%"/>
+<!-- _Walkthrough, Company [Kearney](/)_ -->
 
 **Interviewer: You are thinking of starting a sports coaching center in Mumbai. You have to find a way to set the price of individual subscriptions for memberships at your coaching center. How will you do this?**
 

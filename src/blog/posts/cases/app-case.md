@@ -1,8 +1,8 @@
 # App Case
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/app-case.png?raw=true" width="100%"/>
+<!-- _Company [Bain Capability Network](/)_ -->
 
 **Interviewer (Case Statement): You, being a founder of an app, need 1 lakh students in 1 year. What will be the relevant revenue streams and how will you be reaching this target of achieving one Lakh students?**
 

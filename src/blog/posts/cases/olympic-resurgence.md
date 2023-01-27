@@ -1,8 +1,8 @@
 # Olympic Resurgence
 
-_Walkthrough, Company [Kearney](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/olympic-resurgence.png?raw=true" width="100%"/>
+<!-- _Walkthrough, Company [Kearney](/)_ -->
 
 **Interviewer (Case Statement): You are made the sports minister of India; what do you think are the problems stopping India from getting at least 20 medals in the upcoming Olympics.**
 

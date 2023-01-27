@@ -9,7 +9,7 @@ import CardMedia from '@mui/material/CardMedia';
 
 function FeaturedPost(props) {
   const { post } = props;
-  console.log(post.title.split(" ").join("-").toLowerCase())
+  // console.log(post.title.split(" ").join("-").toLowerCase())
   return (
     <Grid item xs={12} md={6}>
         <Card sx={{ display: 'flex' }}>

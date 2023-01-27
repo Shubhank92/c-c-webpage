@@ -1,8 +1,8 @@
 # Bifurcated State
 
-_Walkthrough, Company [Kearney](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/bifurcated-state.png?raw=true" width="100%"/>
+<!-- _, Company [Kearney](/)_ -->
 
 **A state in India has been bifurcated. Calculate the space and cost space of the office of the secretariat.**
 

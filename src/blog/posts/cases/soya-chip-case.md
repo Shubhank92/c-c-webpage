@@ -1,6 +1,8 @@
 # Soya Chip Case
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
+
+<!-- _Walkthrough, Company [Bain Capability Network](/)_ -->
 
 **Interviewer :- A company HBL manufactures snacks and Beverages and is the market leader in India for soya chips, for the last 20 years . But recently, because of some local competition, Their volume share Fell from 60% to 20 % in a single year and this mainly happened in the east Indian market. Figure out a reason for the decline and what the company should do so as to sort of reverse that decline.**
 

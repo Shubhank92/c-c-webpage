@@ -1,6 +1,10 @@
 import LanguageIcon from '@mui/icons-material/Language';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import mainImage from '../assets/main-image.jpg';
+import theoDiss from '../assets/theory-discussions.jpg';
+import caseStuc from '../assets/case-structures.jpg';
+
 
 
 const CaseExamplesContent = [
@@ -34,7 +38,7 @@ const mainFeaturedPost = {
   title: 'Case & Consultancy Club',
   description:
     "The Case and Consultancy Club of St. Xavier’s College (Autonomous) Mumbai, is immensely proud to present its first ever casebook!", 
-  image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/main-image.jpg?raw=true',
+  image: `${mainImage}`,
   imageText: 'Case & Consultancy Club',
   linkText: 'Continue reading…',
 };
@@ -44,14 +48,14 @@ const featuredPosts = [
     title: 'Theory Discussions',
     date: 'Nov 12',
     description: "Indepth Discussions about Porter's 5 principles, C3C-1P Approach, MECE, 80/20",
-    image: 'https://github.com/Shubhank92/c-c-webpage/blob/4ff22d4bbffa7be8e3281352f1fc8e584ef8e469/src/assets/theory-discussions.jpg?raw=true',
+    image: `${theoDiss}`,
     imageLabel: 'Theory Discussions',
   },
   {
     title: 'Case Structures',
     date: 'Nov 11',
     description: 'Two main case types that are predominantly witnessed in case interviews for students.',
-    image: 'https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/case-structures.jpg?raw=true',
+    image: `${caseStuc}`,
     imageLabel: 'Case Structures',
   },
 ];
@@ -74,7 +78,7 @@ const sidebar = {
     { title: 'Starbucks Case'},
     { title: 'Vistara Case'},
     { title: 'Swimming Pools Case'},
-    { title: 'No. of coins in a mall'}
+    { title: 'Number of Coins'}
   ],
   social: [
     { name: 'Instagram', icon: InstagramIcon, url: 'https://www.instagram.com/ecell.xaviers/' },

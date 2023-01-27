@@ -10,14 +10,14 @@ function Header(props) {
   return (
     <React.Fragment>
       <Toolbar sx={{ borderBottom: 1, borderColor: 'divider' }}>
-        <Grid container direction='column' justifyContent="center" alignItems="center" sx={{p:1}}>
+        <Grid container direction='column' justifyContent="center" alignItems="center" sx={{p: {xs:0, sm:0, md: 1}}}>
           <Grid item>
-            <Typography component="h2" variant="h4" color="inherit" align="center" fontStyle="italic" noWrap sx={{ flex: 1 }}>
+            <Typography component="h2" variant="h4" color="inherit" align="center" fontStyle="italic" noWrap sx={{ flex: 1, fontSize: {xs: 17, sm: 30, md: 40} }}>
               {title}
             </Typography>
           </Grid>
           <Grid item>
-            <Typography component="h4" variant="h6" color="inherit" align="center" fontStyle="italic" noWrap sx={{ flex: 1 }} >
+            <Typography component="h4" variant="h6" color="inherit" align="center" fontStyle="italic" noWrap sx={{ flex: 1, fontSize: {xs: 12, sm: 18, md: 25} }} >
               {subtitle}
             </Typography>
           </Grid>
@@ -26,13 +26,13 @@ function Header(props) {
       <Toolbar
         component="nav"
         variant="dense"
-        sx={{ justifyContent: 'space-evenly', overflowX: 'auto', borderBottom: 1, borderColor: 'divider' }}
+        sx={{ justifyContent: 'space-evenly', overflowX: 'auto', borderBottom: 1, borderColor: 'divider', fontSize: {xs: 12, sm: 18} }}
       >
         {sections.map((section) => (
           <Link 
             key={section.title}
             to={section.title === 'Home' ? '/' : `${section.title.split(" ").join("-").toLowerCase()}`}
-            style={{ padding: 1, flexShrink: 0, color: 'white' }}
+            style={{ p: 1, flexShrink: 0, color: 'white' }}
           >
             {section.title}
           </Link>

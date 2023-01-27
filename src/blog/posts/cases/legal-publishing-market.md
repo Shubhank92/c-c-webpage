@@ -1,8 +1,8 @@
 # Legal Publishing Market
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/legal-publishing-market.png?raw=true" width="100%"/>
+<!-- _, Company [Bain Capability Network](/)_ -->
 
 **Interviewer (Case Statement): You are a legal and regulatory information company and you want to enter the legal publishing market. Now identify the market size for these legal books.**
 

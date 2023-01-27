@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 import {Link} from 'react-router-dom';
 import Box from '@mui/material/Box';
 
+
 function MainFeaturedPost(props) {
   const { post } = props;
 
@@ -19,7 +20,7 @@ function MainFeaturedPost(props) {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        backgroundImage: `url(${post.image})`,
+        backgroundImage: `url(${post.image})`
       }}
     >
       {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}

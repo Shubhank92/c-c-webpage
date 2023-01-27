@@ -1,6 +1,6 @@
 # Market Entry Case
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/market-entry.png?raw=true" width="100%"/>
+<!-- <img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/market-entry.png?raw=true" width="100%"/> -->
 
 A market entry case involves a client wanting to expand its offerings either geographically, or venturing into a new line of business.
 Before proceeding with such a case, information regarding the existing geographies the client operates in, whether they have expanded into such markets previously, and within what time frame they want to achieve these goals in.

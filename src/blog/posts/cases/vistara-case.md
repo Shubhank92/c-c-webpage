@@ -1,8 +1,8 @@
 # Vistara Case
 
-_Walkthrough, Company [Bain Capability Network](/)_
+Walkthrough
 
-<img src="https://github.com/Shubhank92/c-c-webpage/blob/main/src/assets/vistara.png?raw=true" width="100%"/>
+<!-- _Walkthrough, Company [Bain Capability Network](/)_ -->
 
 **Interviewer (Case Statement): Estimate the number of breakfasts that Vistara needs to prepare for its flights from Delhi in a day.**
 
